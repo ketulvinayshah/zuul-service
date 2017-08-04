@@ -4,3 +4,8 @@ server:
 management:
   security:
     enabled: false
+
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
